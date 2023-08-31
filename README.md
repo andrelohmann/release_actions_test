@@ -17,3 +17,4 @@ Test the release action
   * Fourteenth Feature
   * Fivteenth major update
   * Sixteenth BREAKING CHANGE
+  * Seventeenth another major upgrade
