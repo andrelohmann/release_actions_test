@@ -18,3 +18,4 @@ Test the release action
   * Fivteenth major update
   * Sixteenth BREAKING CHANGE
   * Seventeenth another major upgrade
+  * Eighteenth major
