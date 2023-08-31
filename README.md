@@ -20,3 +20,4 @@ Test the release action
   * Seventeenth another major upgrade
   * Eighteenth major
   * Nineteenth BREAKING BAD
+  * Twentieth Feature with BREAKING CHANGE
