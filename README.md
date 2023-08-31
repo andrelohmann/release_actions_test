@@ -15,3 +15,4 @@ Test the release action
   * Twelveth feature + fix
   * Thirteenth Feature
   * Fourteenth Feature
+  * Fivteenth major update
