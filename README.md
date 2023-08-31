@@ -10,3 +10,4 @@ Test the release action
   * Seventh Fix
   * Eights Feature
   * Nineth feature
+  * Tenth feature
