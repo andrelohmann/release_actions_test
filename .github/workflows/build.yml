@@ -1,0 +1,30 @@
+---
+name: Build
+
+on:
+  push:
+    branches:
+    - "feature/*"
+    - "fix/*"
+    - "hotfix/*"
+  pull_request:
+    branches:
+    # some older repositories still use master, all newer ones use main
+    - master
+    - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+      with:
+        path: "${{ github.repository }}"
+
+    - name: Do the build
+      working-directory: ${{ github.repository }}
+      run: |
+        ls -al
+...
