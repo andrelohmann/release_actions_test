@@ -8,16 +8,10 @@ on:
     workflows: ['TheBuildWorkflow']
     #branches: [main, master]
     branches:
-    - "feature/*"
-    - "fix/*"
-    - "hotfix/*"
+    - main
+    - master
     types:
     - completed
-  push:
-    branches:
-    - "feature/*"
-    - "fix/*"
-    - "hotfix/*"
 
 # https://github.com/marketplace/actions/github-tag-with-semantic-versioning
 # https://medium.com/@AranT/auto-tagging-and-using-semantic-versioning-with-github-actions-e40188d12cf4
@@ -51,7 +45,7 @@ jobs:
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         create_annotated_tag: true
-        dry_run: true
+        #dry_run: true
     - name: Create a GitHub release
       uses: ncipollo/release-action@v1
       with:
