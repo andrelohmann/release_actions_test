@@ -4,4 +4,4 @@ Test the release action
   * First Feature implemented
   * Second Feature implemented
   * Third Feature, but a fix
-  * Fourth Feature, but fix 
+  * Fourth Feature, but fix and release repair
