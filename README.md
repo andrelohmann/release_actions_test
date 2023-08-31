@@ -6,3 +6,4 @@ Test the release action
   * Third Feature, but a fix
   * Fourth Feature, but fix and release repair
   * Fifth Fix - from draft to ready
+  * Sixth Fix
