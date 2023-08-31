@@ -1,11 +1,11 @@
 ---
-name: Test Release
+name: TestRelease
 
 on:
   # the 1st condition
   workflow_run:
     # some older repositories still use master, all newer ones use main
-    workflows: ["build"]
+    workflows: ["Build"]
     branches:
     - 'feature/*'
     - 'fix/*'
