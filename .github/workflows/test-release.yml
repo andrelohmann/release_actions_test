@@ -6,10 +6,11 @@ on:
   workflow_run:
     # some older repositories still use master, all newer ones use main
     workflows: ['TheBuildWorkflow']
-    #branches:
-    #- "feature/*"
-    #- "fix/*"
-    #- "hotfix/*"
+    #branches: [main, master]
+    branches:
+    - "feature/*"
+    - "fix/*"
+    - "hotfix/*"
     types:
     - completed
 
