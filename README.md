@@ -19,3 +19,4 @@ Test the release action
   * Sixteenth BREAKING CHANGE
   * Seventeenth another major upgrade
   * Eighteenth major
+  * Nineteenth BREAKING BAD
