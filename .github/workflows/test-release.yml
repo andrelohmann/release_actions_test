@@ -7,9 +7,9 @@ on:
     # some older repositories still use master, all newer ones use main
     workflows: ["Build"]
     branches:
-    - 'feature/*'
-    - 'fix/*'
-    - 'hotfix/*'
+    - "feature/*"
+    - "fix/*"
+    - "hotfix/*"
     types:
     - completed
 
