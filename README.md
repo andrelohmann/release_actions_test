@@ -3,3 +3,4 @@ Test the release action
 
   * First Feature implemented
   * Second Feature implemented
+  * Third Feature, but a fix
