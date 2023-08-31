@@ -13,4 +13,4 @@ Test the release action
   * Tenth feature
   * Eleventh real Feature
   * Twelveth feature + fix
-  * Thirteenth
+  * Thirteenth Feature
