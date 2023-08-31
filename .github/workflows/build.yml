@@ -8,6 +8,8 @@ on:
     - "fix/*"
     - "hotfix/*"
   pull_request:
+    types:
+    - closed
     branches:
     # some older repositories still use master, all newer ones use main
     - master
