@@ -8,3 +8,4 @@ Test the release action
   * Fifth Fix - from draft to ready
   * Sixth Fix
   * Seventh Fix
+  * Eights Feature
