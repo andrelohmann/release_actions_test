@@ -1,0 +1,23 @@
+---
+name: ScheduledWorkflow
+
+on:
+  schedule:
+  - cron: '*/5 * * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+
+    - name: Checkout
+      uses: actions/checkout@v3
+      with:
+        path: "${{ github.repository }}"
+
+    - name: Do the build
+      working-directory: ${{ github.repository }}
+      run: |
+        ls -al
+...
