@@ -21,3 +21,4 @@ Test the release action
   * Eighteenth major
   * Nineteenth BREAKING BAD
   * Twentieth Feature with BREAKING CHANGE
+  * added scheduled workflow

@@ -16,6 +16,8 @@ on:
   #  # some older repositories still use master, all newer ones use main
   #  - master
   #  - main
+  schedule:
+  - cron: '0/5 * * * *'
 
 jobs:
   build:
