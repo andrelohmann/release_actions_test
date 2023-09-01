@@ -7,7 +7,7 @@ on:
 
 jobs:
   call-workflow:
-    uses: ${{ github.repository }}/.github/workflows/build_and_test.yml@main
+    uses: ./.github/workflows/build_and_test.yml@main
     with:
       repository-path: ${{ github.repository }}
     secrets: inherit
