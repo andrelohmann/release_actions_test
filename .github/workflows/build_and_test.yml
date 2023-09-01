@@ -1,14 +1,9 @@
 ---
-name: TheBuildWorkflow
+name: BuildAndTest
 
 on:
-  push:
-    branches:
-    - "feature/*"
-    - "fix/*"
-    - "hotfix/*"
-    - master
-    - main
+  schedule:
+  - cron: '*/5 * * * *'
 
 jobs:
   build:
