@@ -1,6 +1,9 @@
 # release_actions_test
 Test the release action
 
+* ![Last test](https://github.com/andrelohmann/release_actions_test/actions/workflows/build.yml/badge.svg)
+* ![Last master test](https://github.com/andrelohmann/release_actions_test/actions/workflows/build.yml/badge.svg?branch=master)
+
   * First Feature implemented
   * Second Feature implemented
   * Third Feature, but a fix
