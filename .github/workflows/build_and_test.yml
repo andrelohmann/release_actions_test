@@ -2,8 +2,14 @@
 name: BuildAndTest
 
 on:
-  schedule:
-  - cron: '*/5 * * * *'
+  workflow_call:
+    inputs:
+      repository-path:
+        required: true
+        type: string
+    #secrets:
+    #  token:
+    #    required: true
 
 jobs:
   build:
@@ -23,8 +29,8 @@ jobs:
 
     - name: get tags
       run: |
-        sudo apt update
-        sudo apt install -yqq curl
-        curl -L -H "Accept: application/vnd.github+json" -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" -H "X-GitHub-Api-Version: 2022-11-28" https://api.github.com/repos/${{ github.repository }}/tags/protection
+        URL=https://api.github.com/repos/${{ github.repository }}/tags
+        TOKEN=${{ secrets.GITHUB_TOKEN }}
+        curl -L -H "Accept: application/vnd.github+json" -H "Authorization: Bearer $TOKEN" -H "X-GitHub-Api-Version: 2022-11-28" $URL
 
 ...
